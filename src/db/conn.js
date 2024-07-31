@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 // CREATING A DATABASE
-mongoose.connect("mongodb://localhost:27017/dynamic-Web", {
+mongoose.connect("mongodb+srv://viveksenjaliya1:bB0tM5sWwEBtxA2d@devlopment.4ltyimt.mongodb.net/dynamic-Web", {
     useNewUrlParser : true,
     useUnifiedTopology : true
 }).then(() => {
